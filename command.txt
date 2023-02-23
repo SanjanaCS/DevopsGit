@@ -1,0 +1,40 @@
+   3 git init
+   4 git config --global user.name "sanjana"
+   5 git config --global user.email "sanjana.cs@tecnotree.com"
+   6 git add .
+   7 git status
+   8 git commit -m "my initial commit"
+   9 git status
+  10 git status
+  11 git add FileA.txt
+  12 git status
+  13 git commit -m "Changes added to git"
+  14 git status
+  15 git log
+  16 git log
+  17 git checkout 170c864c6b7cdb96d3d9c16650bd58df048237d2
+  18 git log --all
+  19 git checkout 7ff049d348821337014e742b4dafed490a495d10
+  20 git status
+  21 git checkout 7ff049d
+  22 git status
+  23 git checkout 7ff049d348821337014e742b4dafed490a495d10
+  24 git status
+  25 git add .
+  26 git status
+  27 git log
+  28 git restore --cached FileA.txt
+  29 git rm --cached FileA.txt
+  30 git status
+  31 git add .
+  32 git status
+  33 git checkout -b "Feature"
+  34 git add .
+  35 git status
+  36 git commit -m "file C changes added"
+  37 git status
+  38 git log
+  39 git log --all
+  40 git checkout -b master
+  41 git checkout  master
+  42 git checkout Feature
